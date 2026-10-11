@@ -1,0 +1,112 @@
+body {
+  color: rgba(0, 0, 0, 0.56);
+ background-color: rgba(0, 0, 0, 0.56);
+ 
+  font-family: sans-serif;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 0.56);
+  
+  font-family: Helvetica;
+  opacity: 1;
+  animation: come-from-down 2.4s cubic-bezier(0.22, 1, 0.36, 1) both 0.1s;
+}
+
+h2 {
+  opacity: 0;
+  animation: come-from-down 2.4s cubic-bezier(0.22, 1, 0.36, 1) both 0.2s;
+  color: rgba(255, 255, 255, 0.56);
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 3; }
+}
+h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.56);  
+}
+h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 10px;
+  
+}
+p {
+  text-align: left;
+  font-size: 1.5em;
+  margin-top: 20px;
+  animation: come-from-down 2.4s cubic-bezier(0.22, 1, 0.36, 1) both 0.3s;
+  color: rgba(255, 255, 255, 0.56);
+}
+hr {
+  border: none;
+  height: 5px;
+  background-color:  rgba(255, 255, 255, 0.56);
+  margin-top: 60px;
+  margin-bottom: 60px;
+  
+  animation: come-from-down 2.4s cubic-bezier(0.22, 1, 0.36, 1) both 0.4s;
+}
+li {
+  text-align: left;
+  font-size: 1.5em;
+  margin-top: 10px;
+  animation: come-from-down 2.4s cubic-bezier(0.22, 1, 0.36, 1) both 0.5s;
+  color: rgba(255, 255, 255, 0.56);
+}
+@keyframes come-from-down {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+
+
+}
+h3 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+  animation: come-from-down 2.4s cubic-bezier(0.22, 1, 0.36, 1) both 0.6s;
+  color: rgba(255, 255, 255, 0.56);
+}
+h4 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+  animation: come-from-down 2.4s cubic-bezier(0.22, 1, 0.36, 1) both 0.6s;
+  color: rgba(255, 255, 255, 0.56);
+
+} 
+h5 {  text-align: left;
+  font-size: 2em;
+  margin-top: 20px;
+  animation: come-from-down 2.4s cubic-bezier(0.22, 1, 0.36, 1) both 0.6s;
+  color: rgba(255, 255, 255, 0.56);
+}
+h6 {
+  text-align: left;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  animation: come-from-down 2.4s cubic-bezier(0.22, 1, 0.36, 1) both 0.6s;
+  color: rgba(255,255, 255, 0.56);
+}
+br {
+  size: 200px;
+}
+h7 {
+text-align: left;
+  font-size: 2.3em;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  animation: come-from-down 1.2s cubic-bezier(0.22, 1, 0.36, 1) both 0.6s;
+  color: rgba(255,255, 255, 0.56);
+
+}
+html {
+  scroll-behavior: smooth;
+  
+}

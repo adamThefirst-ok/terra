@@ -1,2 +1,0 @@
-# terra
-het is adam
